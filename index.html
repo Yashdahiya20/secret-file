@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Love Proposal ❤️</title>
+
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Slide 1 -->
+    <div class="slide active" id="slide1">
+        <h1>My Beautiful Bubu ❤️</h1>
+        <p>A special little surprise is waiting for you...</p>
+
+        <button onclick="nextSlide()">
+            Start ❤️
+        </button>
+    </div>
+
+
+    <!-- Slide 2 -->
+    <div class="slide" id="slide2">
+
+        <h1>Hello Beautiful ❤️</h1>
+
+        <p>Can I know your name?</p>
+
+        <input id="nameInput" type="text" placeholder="Enter your name">
+
+        <button onclick="saveName()">
+            Continue ❤️
+        </button>
+
+    </div>
+
+
+    <!-- Slide 3 -->
+    <div class="slide" id="slide3">
+
+        <h1 id="welcomeText"></h1>
+
+        <p>I want to ask you something...</p>
+
+        <button onclick="nextSlide()">
+            Continue ❤️
+        </button>
+
+    </div>
+
+
+    <!-- Slide 4 -->
+    <div class="slide" id="slide4">
+
+        <h1>Will You Marry Me? 💍</h1>
+
+        <p>You are the most special person in my life ❤️</p>
+
+        <button onclick="showPopup()">
+            Answer ❤️
+        </button>
+
+    </div>
+
+
+</div>
+
+
+<!-- Proposal Popup -->
+
+<div id="popup">
+
+    <h2>
+        Will You Marry Me? ❤️
+    </h2>
+
+    <button id="yesBtn" onclick="yesClicked()">
+        YES ❤️
+    </button>
+
+    <button id="noBtn">
+        NO 💔
+    </button>
+
+</div>
+
+
+<!-- Final Slide -->
+
+<div class="final" id="final">
+
+    <h1>
+        You Made Me The Happiest Person Alive ❤️
+    </h1>
+
+    <p>
+        I Love You Forever ❤️
+    </p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
